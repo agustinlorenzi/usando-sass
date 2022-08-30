@@ -1,0 +1,76 @@
+/* Grid Container de la Home */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas:
+        "header header header header"
+        "seccion1 seccion1 seccion1 seccion1"
+        "seccion2 seccion2 seccion2 seccion2"
+        "seccion3 seccion3 seccion3 seccion3"
+        "seccion4 seccion4 seccion4 seccion4"
+        "footer footer footer footer"              
+}
+
+/* Grid Container de Cabañas */
+
+.grid-container-cabanas {
+    display: grid;
+    background-color: rgba(177, 135, 30, 0.562);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas:
+        "header header header header"
+        "seccion1-ca seccion1-ca seccion1-ca seccion1-ca"
+        "seccion2-ca seccion2-ca seccion2-ca seccion2-ca"
+        "seccion3-ca seccion3-ca seccion3-ca seccion3-ca"
+        "seccion4-ca seccion4-ca seccion4-ca seccion4-ca"
+        "footer footer footer footer"        
+}
+
+/* grid complejo */
+
+.grid-container-complejo {
+    display: grid;
+    background-color: rgba(177, 135, 30, 0.562);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas:
+        "header header header header"
+        "complejo1 complejo1 complejo1 complejo1"
+        "complejo2 complejo2 complejo2 complejo2"
+        "complejo3 complejo3 complejo3 complejo3"
+        "complejo4 complejo4 complejo4 complejo4"
+        "complejo5 complejo5 complejo5 complejo5"
+        "complejo6 complejo6 complejo6 complejo6"
+        "footer footer footer footer"    
+}
+
+/* grid de tarifas */
+
+.grid-container-tarifas {
+    display: grid;
+    /* degrade en el color de fondo del cuerpo de tarifas */
+    background-image: linear-gradient(to right, #e69a3ec5 ,rgba(177, 135, 30, 0.685));
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas:
+        "header header header header"
+        "tarifas1 tarifas1 tarifas1 tarifas1"
+        "tarifas2 tarifas2 tarifas2 tarifas2"
+        "footer footer footer footer";    
+}
+
+/* grid del formulario */
+
+.grid-container-formulario {
+    display: grid;
+    background-color: rgba(177, 135, 30, 0.562);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas:
+        "header header header header"
+        "formulario formulario formulario formulario"
+        "footer footer footer footer";    
+}

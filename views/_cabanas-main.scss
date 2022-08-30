@@ -1,0 +1,240 @@
+/* Desarrollo de las secciones de cabañas */
+
+.main-cabanas {
+    position: relative;
+    top: 120px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 2920px;
+}
+
+.cabañas {
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+.seccion1-ca {
+    grid-area: seccion1-ca;
+    background-color: rgba(255, 228, 196, 0.473);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        color: chocolate;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 25px;
+        margin: 10px 0px 0px 0px;
+    }
+    p {
+        margin: 15px 20px;
+        text-align: justify;
+        color: rgb(165, 42, 42);
+        font-size: 15px;
+    }
+}
+
+.seccion2-ca {
+    grid-area: seccion2-ca;
+    background-color: rgba(177, 135, 30, 0.562);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    h2 {
+        font-size: 20px;
+        margin: 10px;
+        color: chocolate;
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        width: 80vw;
+        margin-bottom: 10px;
+        padding-left: 0;
+        li {
+        padding: 5px;
+        margin: 10px;
+        background-color: rgba(165, 42, 42, 0.404);
+        border: 1px rgb(219, 84, 6) solid;
+        }
+    }
+}
+
+.seccion3-ca {
+    grid-area: seccion3-ca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    /* degrade */
+    background-image: linear-gradient(to right, bisque, rgba(233, 211, 114, 0.185));
+    margin-bottom: 20px;
+
+    h2 {
+        font-size: 17px;
+        margin: 15px 0px;
+    }
+
+    ul {
+        margin-bottom: 10px;
+        padding-left: 0;
+        li img {
+        width: 80vw;
+        margin: 6px;
+        }
+    }
+}
+
+.seccion4-ca {
+    grid-area: seccion4-ca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    /* degrade */
+    background-image: linear-gradient(to left, bisque, rgba(233, 211, 114, 0.185));
+    margin-bottom: 20px;
+
+    h2 {
+        font-size: 17px;
+        margin: 15px 0px;
+    }
+    
+    ul {
+        margin-bottom: 10px;
+        padding-left: 0;
+        li img {
+        width: 80vw;
+        margin: 6px;
+        }
+    }
+}
+
+@media (min-width: 375px) {
+
+    .main-cabanas {
+        height: 3100px;
+    }
+}
+
+@media (min-width: 425px) {
+
+    .main-cabanas {
+        height: 3350px;
+    }
+}
+
+@media (min-width: 450px) {
+
+    .main-cabanas {
+        height: 3970px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .main-cabanas {
+        height: 2080px;
+    }
+
+    .seccion1-ca {
+        h1 {
+            font-size: 35px;
+        }
+        p {
+            font-size: 22px;
+        }
+    }
+
+    .seccion2-ca ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .seccion3-ca {
+        h2 {
+            font-size: 22px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            li img {
+            width: 40vw;
+            }
+        }
+    }
+
+    .seccion4-ca {
+        h2 {
+            font-size: 22px;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            li img {
+            width: 40vw;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .main-cabanas {
+        position: relative;
+        top: 120px;
+        height: 2250px;
+    }
+
+    .seccion2-ca {
+        h2 {
+            font-size: 30px;
+        }
+        ul{
+            li {
+            font-size: 18px;
+            }
+        }
+    }
+
+    .seccion3-ca {
+
+        ul{
+            li img {
+            width: 30vw;
+            margin: 20px;
+            }
+        }
+    }
+
+
+    .seccion4-ca {
+        ul{
+            li img {
+            width: 30vw;
+            margin: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1366px) {
+
+    .main-cabanas {
+        position: relative;
+        top: 120px;
+        height: 1890px;
+    }
+}

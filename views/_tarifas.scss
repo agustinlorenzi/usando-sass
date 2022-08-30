@@ -1,0 +1,151 @@
+/* desarrollo de secciones de tarifas y reserva */
+
+.main-tarifas {
+    position: relative;
+    top: 130px;
+    height: 970px;
+    width: 100vw;
+}
+
+.tarifas {
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+.tarifas1 {
+    grid-area: tarifas1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        margin: 10px;
+        color: chocolate;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+}
+
+.tarifas1 table {
+    background-color: rgba(255, 228, 196, 0.473);
+    width: 80vw;
+    margin-bottom: 15px;
+}
+
+.tarifas2 {
+    grid-area: tarifas2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(177, 135, 30, 0.562);
+    margin-bottom: 10px;
+
+    h2 {
+        font-size: 20px;
+        margin: 14px 10px 6px 10px;
+    }
+}
+
+.tarifas2 {
+    ul {
+        list-style-type: disc;
+        width: 86vw;
+        margin: 0px 10px 10px 15px;
+        padding: 0;
+
+        li {
+            margin: 5px 5px 9px 15px;
+            font-size: 17px;
+        }
+    }
+}
+
+table {
+    tr {
+        th {
+            border: 1px solid black;
+            text-align: center;
+        }
+    }
+}
+
+table {
+    tr {
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+    }
+}
+
+/* Arrancan las medias query */
+
+@media (min-width: 375px) {
+
+    .main-tarifas {
+        height: 900px;
+    }
+}
+
+@media (min-width: 450px) {
+
+    .main-tarifas {
+        height: 730px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .main-tarifas {
+        height: 630px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .main-tarifas {
+        position: relative;
+        top: 150px;
+        height: 670px;
+    }
+
+    .tarifas1 {
+        h1 {
+            color: chocolate;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 35px;
+        }
+    }
+
+    .tarifas1 {
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .tarifas1 {
+        table {
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .tarifas2 {
+        margin-bottom: 22px;
+        h2{
+            font-size: 22px;
+        }
+        ul{
+            li{
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+   
