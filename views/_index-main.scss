@@ -1,20 +1,9 @@
 /* Desarrollo de las secciones de la home */
 
-.main-home {
-    position: relative;
-    top: 119px;
-    width: 100vw;
-    height: 1750px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .seccion1 {
     grid-area: seccion1;
     width: 100vw;
 }
-
 
 .seccion2 {
     grid-area: seccion2;
@@ -90,18 +79,7 @@
     }
 }
 
-
-
-@media (min-width: 375px) {
-    .main-home {
-        height: 1885px;
-    }
-}
-
-@media (min-width: 425px) {
-    .main-home {
-        height: 1800px;
-    }
+@media (min-width: 425px) {   
 
     .seccion3 {
         ul {
@@ -115,16 +93,7 @@
     }
 }
 
-@media (min-width: 450px) {
-    .main-home {
-        height: 2075px;
-    }
-}
-
-@media (min-width: 768px) {
-    .main-home {
-        height: 1330px;
-    }
+@media (min-width: 768px) {   
 
     .seccion2 {
         p {
@@ -162,13 +131,7 @@
     }  
 }
 
-@media (min-width: 1024px) {
-
-    .main-home {
-        position: relative;
-        top: 119px;
-        height: 1302px;
-    }
+@media (min-width: 1024px) {  
 
     .seccion2 {
         height: 130px;
@@ -187,13 +150,5 @@
                 margin: 5px;
             }
         }
-    }
-}
-
-@media (min-width: 1366px) {
-    .main-home {
-        position: relative;
-        top: 119px;
-        height: 1228px;
     }
 }

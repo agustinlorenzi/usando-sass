@@ -1,0 +1,15 @@
+//desarrollo de caracteristicas globales de main y footer.
+
+.main {
+    position: relative;
+    top: 119px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-footer {    
+    width: 100vw;      
+}
