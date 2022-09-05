@@ -1,7 +1,7 @@
 /* Grid Container de la Home */
 
 .grid-container {
-    display: grid;
+    display: grid;    
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto auto;
     grid-template-areas:
@@ -10,7 +10,7 @@
         "seccion2 seccion2 seccion2 seccion2"
         "seccion3 seccion3 seccion3 seccion3"
         "seccion4 seccion4 seccion4 seccion4"
-        "footer footer footer footer"              
+        "footer footer footer footer"
 }
 
 /* Grid Container de Cabañas */

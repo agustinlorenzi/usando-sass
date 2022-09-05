@@ -103,16 +103,18 @@
   .margen-laptop {
     margin-left: 350px; } }
 
-/* Desarrollo de las secciones de la home */
-.main-home {
+.main {
   position: relative;
   top: 119px;
   width: 100vw;
-  height: 1750px;
   display: flex;
   flex-direction: column;
   align-items: center; }
 
+.main-footer {
+  width: 100vw; }
+
+/* Desarrollo de las secciones de la home */
 .seccion1 {
   grid-area: seccion1;
   width: 100vw; }
@@ -174,26 +176,14 @@
       margin: 5px 10px 20px 10px;
       border-radius: 20%; }
 
-@media (min-width: 375px) {
-  .main-home {
-    height: 1885px; } }
-
 @media (min-width: 425px) {
-  .main-home {
-    height: 1800px; }
   .seccion3 ul {
     justify-content: space-around; }
     .seccion3 ul li img {
       width: 65vw;
       margin: 5px; } }
 
-@media (min-width: 450px) {
-  .main-home {
-    height: 2075px; } }
-
 @media (min-width: 768px) {
-  .main-home {
-    height: 1330px; }
   .seccion2 p {
     text-align: justify;
     margin-left: 50px;
@@ -217,10 +207,6 @@
     list-style-type: none; } }
 
 @media (min-width: 1024px) {
-  .main-home {
-    position: relative;
-    top: 119px;
-    height: 1302px; }
   .seccion2 {
     height: 130px; }
   .seccion3 ul {
@@ -232,12 +218,6 @@
     .seccion3 ul li img {
       width: 250px;
       margin: 5px; } }
-
-@media (min-width: 1366px) {
-  .main-home {
-    position: relative;
-    top: 119px;
-    height: 1228px; } }
 
 /* Desarrollo de las secciones de cabañas */
 .main-cabanas {
@@ -806,7 +786,11 @@ table tr td {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  position: relative;
+  bottom: -119px;
+  left: 0;
+  right: 0; }
 
 .contacto {
   display: flex;

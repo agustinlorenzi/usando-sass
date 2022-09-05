@@ -10,6 +10,10 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    position: relative;
+    bottom: -119px;
+    left: 0;
+    right: 0;
 }
 
 .contacto {
@@ -36,7 +40,6 @@
         color: rgba(255, 238, 0, 0.966);
     }
 }
-
 
 .redes {
     display: flex;
@@ -66,7 +69,6 @@
         margin: 10px;
     }
 }
-
 
 .ubicacion {
     width: 100vw;

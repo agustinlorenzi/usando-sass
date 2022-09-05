@@ -9,7 +9,6 @@
     grid-area: seccion2;
     background-color: rgba(255, 228, 196, 0.473);
     width: 100vw;
-
     p {
         text-align: justify;
         color: rgb(165, 42, 42);
@@ -24,7 +23,6 @@
     /* degrade */
     background-image: linear-gradient(to bottom, bisque, rgb(238, 180, 110));
     width: 100vw;
-
     h1 {
         display: flex;
         color: chocolate;
@@ -34,7 +32,6 @@
         align-items: center;
         margin: 5px;
     }
-
     ul {
         display: flex;
         flex-direction: column;
@@ -42,7 +39,6 @@
         list-style: none;
         margin: 10px;
         padding-left: 0px;
-
         li img {
             width: 80vw;
             margin: 5px;
@@ -107,8 +103,7 @@
             background-color: rgba(255, 228, 196, 0.473);
             padding: 10px;
         }
-    }
-
+    }    
 
     .seccion3 {
         ul {
