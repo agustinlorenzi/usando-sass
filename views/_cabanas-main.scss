@@ -1,19 +1,10 @@
 /* Desarrollo de las secciones de cabañas */
 
-.main-cabanas {
-    position: relative;
-    top: 120px;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 2920px;
-}
 
-.cabañas {
-    border: 1px solid black;
-    border-radius: 20%;
-}
+//.cabañas {
+//    border: 1px solid black;
+//    border-radius: 20%;
+//}
 
 .seccion1-ca {
     grid-area: seccion1-ca;
@@ -73,12 +64,10 @@
     /* degrade */
     background-image: linear-gradient(to right, bisque, rgba(233, 211, 114, 0.185));
     margin-bottom: 20px;
-
     h2 {
         font-size: 17px;
         margin: 15px 0px;
     }
-
     ul {
         margin-bottom: 10px;
         padding-left: 0;
@@ -98,12 +87,10 @@
     /* degrade */
     background-image: linear-gradient(to left, bisque, rgba(233, 211, 114, 0.185));
     margin-bottom: 20px;
-
     h2 {
         font-size: 17px;
         margin: 15px 0px;
-    }
-    
+    }    
     ul {
         margin-bottom: 10px;
         padding-left: 0;
@@ -114,32 +101,7 @@
     }
 }
 
-@media (min-width: 375px) {
-
-    .main-cabanas {
-        height: 3100px;
-    }
-}
-
-@media (min-width: 425px) {
-
-    .main-cabanas {
-        height: 3350px;
-    }
-}
-
-@media (min-width: 450px) {
-
-    .main-cabanas {
-        height: 3970px;
-    }
-}
-
-@media (min-width: 768px) {
-
-    .main-cabanas {
-        height: 2080px;
-    }
+@media (min-width: 768px) {    
 
     .seccion1-ca {
         h1 {
@@ -190,13 +152,7 @@
     }
 }
 
-@media (min-width: 1024px) {
-
-    .main-cabanas {
-        position: relative;
-        top: 120px;
-        height: 2250px;
-    }
+@media (min-width: 1024px) {   
 
     .seccion2-ca {
         h2 {
@@ -230,11 +186,3 @@
     }
 }
 
-@media (min-width: 1366px) {
-
-    .main-cabanas {
-        position: relative;
-        top: 120px;
-        height: 1890px;
-    }
-}

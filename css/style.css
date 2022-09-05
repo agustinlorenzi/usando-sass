@@ -220,19 +220,6 @@
       margin: 5px; } }
 
 /* Desarrollo de las secciones de cabañas */
-.main-cabanas {
-  position: relative;
-  top: 120px;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 2920px; }
-
-.cabañas {
-  border: 1px solid black;
-  border-radius: 20%; }
-
 .seccion1-ca {
   grid-area: seccion1-ca;
   background-color: rgba(255, 228, 196, 0.473);
@@ -313,21 +300,7 @@
       width: 80vw;
       margin: 6px; }
 
-@media (min-width: 375px) {
-  .main-cabanas {
-    height: 3100px; } }
-
-@media (min-width: 425px) {
-  .main-cabanas {
-    height: 3350px; } }
-
-@media (min-width: 450px) {
-  .main-cabanas {
-    height: 3970px; } }
-
 @media (min-width: 768px) {
-  .main-cabanas {
-    height: 2080px; }
   .seccion1-ca h1 {
     font-size: 35px; }
   .seccion1-ca p {
@@ -358,10 +331,6 @@
       width: 40vw; } }
 
 @media (min-width: 1024px) {
-  .main-cabanas {
-    position: relative;
-    top: 120px;
-    height: 2250px; }
   .seccion2-ca h2 {
     font-size: 30px; }
   .seccion2-ca ul li {
@@ -373,26 +342,7 @@
     width: 30vw;
     margin: 20px; } }
 
-@media (min-width: 1366px) {
-  .main-cabanas {
-    position: relative;
-    top: 120px;
-    height: 1890px; } }
-
 /* desarrollo de las secciones de complejo */
-.main-complejo {
-  position: relative;
-  top: 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 2930px;
-  width: 100vw; }
-
-.complejo {
-  border: 1px solid black;
-  border-radius: 20%; }
-
 .complejo1 {
   grid-area: complejo1;
   display: flex;
@@ -602,16 +552,6 @@
     height: 2800px; } }
 
 /* desarrollo de secciones de tarifas y reserva */
-.main-tarifas {
-  position: relative;
-  top: 130px;
-  height: 970px;
-  width: 100vw; }
-
-.tarifas {
-  border: 1px solid black;
-  border-radius: 20%; }
-
 .tarifas1 {
   grid-area: tarifas1;
   display: flex;
@@ -625,11 +565,16 @@
   .tarifas1 h2 {
     font-size: 18px;
     margin-bottom: 7px; }
-
-.tarifas1 table {
-  background-color: rgba(255, 228, 196, 0.473);
-  width: 80vw;
-  margin-bottom: 15px; }
+  .tarifas1 table {
+    background-color: rgba(255, 228, 196, 0.473);
+    width: 80vw;
+    margin-bottom: 15px; }
+    .tarifas1 table tr th {
+      border: 1px solid black;
+      text-align: center; }
+    .tarifas1 table tr td {
+      border: 1px solid black;
+      text-align: center; }
 
 .tarifas2 {
   grid-area: tarifas2;
@@ -641,42 +586,17 @@
   .tarifas2 h2 {
     font-size: 20px;
     margin: 14px 10px 6px 10px; }
-
-.tarifas2 ul {
-  list-style-type: disc;
-  width: 86vw;
-  margin: 0px 10px 10px 15px;
-  padding: 0; }
-  .tarifas2 ul li {
-    margin: 5px 5px 9px 15px;
-    font-size: 17px; }
-
-table tr th {
-  border: 1px solid black;
-  text-align: center; }
-
-table tr td {
-  border: 1px solid black;
-  text-align: center; }
+  .tarifas2 ul {
+    list-style-type: disc;
+    width: 86vw;
+    margin: 0px 10px 10px 15px;
+    padding: 0; }
+    .tarifas2 ul li {
+      margin: 5px 5px 9px 15px;
+      font-size: 17px; }
 
 /* Arrancan las medias query */
-@media (min-width: 375px) {
-  .main-tarifas {
-    height: 900px; } }
-
-@media (min-width: 450px) {
-  .main-tarifas {
-    height: 730px; } }
-
-@media (min-width: 768px) {
-  .main-tarifas {
-    height: 630px; } }
-
 @media (min-width: 1024px) {
-  .main-tarifas {
-    position: relative;
-    top: 150px;
-    height: 670px; }
   .tarifas1 h1 {
     font-size: 35px; }
   .tarifas1 h2 {
@@ -692,16 +612,6 @@ table tr td {
       font-size: 18px; } }
 
 /* desarrollo de secciones de formulario de contacto */
-.main-contacto {
-  position: relative;
-  top: 120px;
-  height: 1538px;
-  width: 100vw; }
-
-.contacto1 {
-  border: 1px solid black;
-  border-radius: 20%; }
-
 .formulario {
   grid-area: formulario;
   background-image: url("../img/imagen-fondo-formulario.jpg");
@@ -710,7 +620,8 @@ table tr td {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
   .formulario h1 {
     margin: 10px;
     color: white; }
@@ -720,61 +631,43 @@ table tr td {
   .formulario form {
     display: flex;
     flex-direction: column;
-    width: 90vw;
-    margin-bottom: 15px; }
+    width: 90vw; }
     .formulario form label {
-      color: white; }
-    .formulario form input:focus {
-      padding: 5px 30px;
-      scale: 1.1; }
+      color: white;
+      margin: 10px 0px 2px; }
+    .formulario form input {
+      margin: 0px 0px 10px; }
+      .formulario form input:focus {
+        padding: 5px 30px;
+        scale: 1.1; }
 
 .boton-desayuno {
   display: flex;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-content: center;
+  margin: 20px; }
+  .boton-desayuno input {
+    margin-bottom: 0px;
+    margin-top: 10px; }
   .boton-desayuno label {
-    margin: 10px; }
+    margin: 15px;
+    padding-left: 15px; }
 
 /* Arrancan las medias query */
-@media (min-width: 375px) {
-  .main-contacto {
-    height: 1490px; } }
-
 @media (min-width: 768px) {
-  .main-contacto {
-    height: 1562px; }
   .formulario h1 {
     font-size: 35px; }
   .formulario p {
     font-size: 25px; }
   .formulario form {
-    position: relative;
-    left: 40px;
-    width: 40vw;
+    width: 60vw;
     margin-bottom: 40px; } }
 
 @media (min-width: 1024px) {
-  .main-contacto {
-    position: relative;
-    top: 120px;
-    height: 1538px; }
-  .formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; }
-    .formulario h1 {
-      font-size: 35px;
-      margin-right: 250px; }
-    .formulario p {
-      font-size: 25px;
-      margin-right: 250px; }
-    .formulario form {
-      width: 40vw;
-      margin-bottom: 40px;
-      margin-right: 250px; } }
-
-@media (min-width: 1366px) {
-  .main-contacto {
-    height: 1515px; } }
+  .formulario form {
+    width: 40vw;
+    margin-bottom: 40px; } }
 
 /* Footer universal para todas las paginas */
 .footer {

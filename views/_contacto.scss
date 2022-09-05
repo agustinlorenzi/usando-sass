@@ -1,135 +1,91 @@
 /* desarrollo de secciones de formulario de contacto */
 
-.main-contacto {
-    position: relative;
-    top: 120px;
-    height: 1538px;
-    width: 100vw;
-}
 
-.contacto1 {
-    border: 1px solid black;
-    border-radius: 20%;
-}
+//.contacto1 {
+//    border: 1px solid black;
+//    border-radius: 20%;
+//}
 
 .formulario {
     grid-area: formulario;
     background-image: url("../img/imagen-fondo-formulario.jpg");
     background-size: 100%;
     background-position: center;
-    width: 100vw;
-    display: flex;
+    width: 100vw;    
+    display: flex; 
     flex-direction: column;
-    align-items: center;
-
+    align-items: center; 
+    justify-content: center;     
     h1 {
         margin: 10px;
         color: white;
     }
-
     p {
         margin-bottom: 10px;
         color: red;
     }
-
     form {
         display: flex;
         flex-direction: column;
-        width: 90vw;
-        margin-bottom: 15px;
-
+        width: 90vw;             
         label {
             color: white;
+            margin: 10px 0px 2px;
         }
-
         input {
+            margin: 0px 0px 10px;
             &:focus {
                 padding: 5px 30px;
-                scale: 1.1;
+                scale: 1.1;                
             }
         }
     }
 }
 
-
 .boton-desayuno {
     display: flex;
     justify-content: flex-start;
-
+    align-items: flex-end;
+    align-content: center;
+    margin: 20px;
+    input{
+       margin-bottom: 0px;
+       margin-top: 10px;
+       
+    }
     label {
-        margin: 10px;
+        margin: 15px;
+        padding-left: 15px;  
+        
     }
 }
 
 /* Arrancan las medias query */
 
-@media (min-width: 375px) {
+@media (min-width: 768px) {   
 
-    .main-contacto {
-        height: 1490px;
-    }
-}
+    .formulario { 
 
-
-@media (min-width: 768px) {
-
-
-    .main-contacto {
-        height: 1562px;
-    }
-
-    .formulario {
         h1 {
             font-size: 35px;
         }
-
         p {
             font-size: 25px;
         }
-
-        form {
-            position: relative;
-            left: 40px;
-            width: 40vw;
+        form {            
+            width: 60vw;
             margin-bottom: 40px;
         }
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) {    
 
-    .main-contacto {
-        position: relative;
-        top: 120px;
-        height: 1538px;
-    }
-
-    .formulario {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        h1 {
-            font-size: 35px;
-            margin-right: 250px;
-        }
-
-        p {
-            font-size: 25px;
-            margin-right: 250px;
-        }
-
+    .formulario {        
         form {
             width: 40vw;
-            margin-bottom: 40px;
-            margin-right: 250px;
+            margin-bottom: 40px;            
         }
     }  
 
-}
-
-@media (min-width: 1366px) {
-
-    .main-contacto {
-        height: 1515px;
-    }
 }
