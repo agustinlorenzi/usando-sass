@@ -77,6 +77,8 @@
 .navbar-toggler {
   background-color: bisque;
   margin: 10px; }
+  .navbar-toggler:focus {
+    transform: rotatez(90deg); }
 
 /* Header universal para todas las paginas */
 .header-home {

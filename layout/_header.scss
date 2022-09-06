@@ -29,6 +29,9 @@
 .navbar-toggler{
     background-color: bisque;
     margin: 10px;
+    &:focus {
+        transform: rotatez(90deg);                
+    }
 }
 
 /* Header universal para todas las paginas */
