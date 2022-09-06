@@ -10,6 +10,11 @@
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif; }
 
+.parrafo, .seccion2 p, .seccion1-ca p, .complejo1 p {
+  text-align: justify;
+  color: brown;
+  font-size: 15px; }
+
 /* Grid Container de la Home */
 .grid-container {
   display: grid;
@@ -124,9 +129,6 @@
   background-color: rgba(255, 228, 196, 0.473);
   width: 100vw; }
   .seccion2 p {
-    text-align: justify;
-    color: brown;
-    font-size: 15px;
     background-color: rgba(255, 228, 196, 0.473);
     padding: 10px 15px 10px 15px; }
 
@@ -134,19 +136,18 @@
   grid-area: seccion3;
   /* degrade */
   background-image: linear-gradient(to bottom, bisque, #eeb46e);
-  width: 100vw; }
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
   .seccion3 h1 {
-    display: flex;
     color: chocolate;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 35px;
-    justify-content: center;
-    align-items: center;
     margin: 5px; }
   .seccion3 ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     list-style: none;
     margin: 10px;
     padding-left: 0px; }
@@ -166,15 +167,24 @@
     justify-content: center;
     margin: 10px; }
   .seccion4 ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     list-style: none;
-    padding-left: 0px; }
+    padding-left: 0px;
+    width: 80vw;
+    justify-content: center; }
     .seccion4 ul li {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       color: white;
       background-color: rgba(165, 42, 42, 0.404);
       border: 1px #db5406 solid;
       padding: 5px;
       margin: 5px 10px 20px 10px;
-      border-radius: 20%; }
+      border-radius: 20%;
+      text-align: center; }
 
 @media (min-width: 425px) {
   .seccion3 ul {
@@ -195,16 +205,22 @@
     background-color: rgba(255, 228, 196, 0.473);
     padding: 10px; }
   .seccion3 ul {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap; }
+    flex-direction: row; }
     .seccion3 ul li img {
       width: 40vw;
-      margin: 5px; }
+      margin: 10px; }
   .seccion4 ul {
     display: flex;
     flex-direction: row;
-    list-style-type: none; } }
+    list-style-type: none;
+    width: 95vw; }
+    .seccion4 ul li {
+      font-size: 18px;
+      text-align: center;
+      align-items: center; } }
 
 @media (min-width: 1024px) {
   .seccion2 {
@@ -213,10 +229,11 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin: 10px;
-    justify-content: space-around; }
+    margin: 20px 30px 20px 5px;
+    width: 100vw;
+    justify-content: space-evenly; }
     .seccion3 ul li img {
-      width: 250px;
+      width: 275px;
       margin: 5px; } }
 
 /* Desarrollo de las secciones de cabañas */
@@ -233,10 +250,7 @@
     font-size: 25px;
     margin: 10px 0px 0px 0px; }
   .seccion1-ca p {
-    margin: 15px 20px;
-    text-align: justify;
-    color: brown;
-    font-size: 15px; }
+    margin: 15px 25px 15px 20px; }
 
 .seccion2-ca {
   grid-area: seccion2-ca;
@@ -268,7 +282,6 @@
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  /* degrade */
   background-image: linear-gradient(to right, bisque, rgba(233, 211, 114, 0.185));
   margin-bottom: 20px; }
   .seccion3-ca h2 {
@@ -287,7 +300,6 @@
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  /* degrade */
   background-image: linear-gradient(to left, bisque, rgba(233, 211, 114, 0.185));
   margin-bottom: 20px; }
   .seccion4-ca h2 {
@@ -331,6 +343,9 @@
       width: 40vw; } }
 
 @media (min-width: 1024px) {
+  .seccion1-ca p {
+    margin-left: 30px;
+    margin-right: 50px; }
   .seccion2-ca h2 {
     font-size: 30px; }
   .seccion2-ca ul li {
@@ -361,10 +376,7 @@
     margin: 8px 8px 5px 8px; }
   .complejo1 p {
     display: flex;
-    margin: 10px 12px;
-    text-align: justify;
-    color: brown;
-    font-size: 15px; }
+    margin: 5px 15px 10px 15px; }
 
 .complejo2 {
   grid-area: complejo2;
@@ -380,12 +392,12 @@
 
 .complejo3 {
   grid-area: complejo3;
-  background-image: radial-gradient(bisque 50%, #b1871e);
-  width: 80vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10px; }
+  width: 80vw;
+  background-image: radial-gradient(bisque 50%, #b1871e);
+  margin-bottom: 20px; }
   .complejo3 h3 {
     margin: 10px;
     font-size: 20px;
@@ -398,12 +410,12 @@
 
 .complejo4 {
   grid-area: complejo4;
-  background-image: radial-gradient(bisque 50%, #b1871e);
-  width: 80vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10px; }
+  width: 80vw;
+  background-image: radial-gradient(bisque 50%, #b1871e);
+  margin-bottom: 20px; }
   .complejo4 h3 {
     margin: 10px;
     font-size: 20px;
@@ -416,12 +428,12 @@
 
 .complejo5 {
   grid-area: complejo5;
-  background-image: radial-gradient(bisque 50%, #b1871e);
-  width: 80vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10px; }
+  width: 80vw;
+  background-image: radial-gradient(bisque 50%, #b1871e);
+  margin-bottom: 20px; }
   .complejo5 h3 {
     margin: 10px;
     font-size: 20px;
@@ -463,21 +475,7 @@
   100% {
     transform: rotatey(360deg); } }
 
-@media (min-width: 375px) {
-  .main-complejo {
-    height: 3160px; } }
-
-@media (min-width: 425px) {
-  .main-complejo {
-    height: 3430px; } }
-
-@media (min-width: 450px) {
-  .main-complejo {
-    height: 4050px; } }
-
 @media (min-width: 768px) {
-  .main-complejo {
-    height: 1990px; }
   .complejo1 {
     justify-content: center; }
     .complejo1 h1 {
@@ -486,7 +484,7 @@
       font-size: 25px; }
     .complejo1 p {
       font-size: 18px;
-      margin: 15px 25px; }
+      margin: 5px 35px 10px 25px; }
   .complejo2 h2 {
     font-size: 25px;
     margin: 20px; }
@@ -525,15 +523,11 @@
     margin: 20px 20px 40px 20px; } }
 
 @media (min-width: 1024px) {
-  .main-complejo {
-    position: relative;
-    top: 120px;
-    height: 2420px; }
   .complejo1 h1 {
     font-size: 35px; }
   .complejo1 p {
     font-size: 25px;
-    margin: 15px 25px; }
+    margin: 15px 45px 25px 25px; }
   .complejo2 h2 {
     font-size: 35px; }
   .complejo3 h3 {

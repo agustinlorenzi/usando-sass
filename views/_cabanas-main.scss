@@ -1,11 +1,5 @@
 /* Desarrollo de las secciones de cabañas */
 
-
-//.cabañas {
-//    border: 1px solid black;
-//    border-radius: 20%;
-//}
-
 .seccion1-ca {
     grid-area: seccion1-ca;
     background-color: rgba(255, 228, 196, 0.473);
@@ -20,10 +14,8 @@
         margin: 10px 0px 0px 0px;
     }
     p {
-        margin: 15px 20px;
-        text-align: justify;
-        color: rgb(165, 42, 42);
-        font-size: 15px;
+        margin: 15px 25px 15px 20px;
+        @extend.parrafo;
     }
 }
 
@@ -57,13 +49,7 @@
 
 .seccion3-ca {
     grid-area: seccion3-ca;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    /* degrade */
-    background-image: linear-gradient(to right, bisque, rgba(233, 211, 114, 0.185));
-    margin-bottom: 20px;
+    @include estiloSeccion(100vw,linear-gradient(to right, bisque, rgba(233, 211, 114, 0.185)));         
     h2 {
         font-size: 17px;
         margin: 15px 0px;
@@ -80,13 +66,7 @@
 
 .seccion4-ca {
     grid-area: seccion4-ca;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    /* degrade */
-    background-image: linear-gradient(to left, bisque, rgba(233, 211, 114, 0.185));
-    margin-bottom: 20px;
+    @include estiloSeccion(100vw,linear-gradient(to left, bisque, rgba(233, 211, 114, 0.185)));    
     h2 {
         font-size: 17px;
         margin: 15px 0px;
@@ -152,7 +132,14 @@
     }
 }
 
-@media (min-width: 1024px) {   
+@media (min-width: 1024px) {  
+    
+    .seccion1-ca{
+        p{
+            margin-left: 30px;
+            margin-right: 50px;
+        }        
+    }
 
     .seccion2-ca {
         h2 {

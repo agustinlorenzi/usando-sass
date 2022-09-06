@@ -1,11 +1,5 @@
 /* desarrollo de las secciones de complejo */
 
-
-//.complejo {
-//    border: 1px solid black;
-//    border-radius: 20%;
-//}
-
 .complejo1 {
     grid-area: complejo1;
     display: flex;
@@ -25,10 +19,8 @@
     }
     p {
         display: flex;
-        margin: 10px 12px;
-        text-align: justify;
-        color: rgb(165, 42, 42);
-        font-size: 15px;
+        margin: 5px 15px 10px 15px;
+        @extend.parrafo;
     }
 }
 
@@ -48,13 +40,8 @@
 }
 
 .complejo3 {
-    grid-area: complejo3;    
-    background-image: radial-gradient(bisque 50%, rgb(177, 135, 30));
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10px;
+    grid-area: complejo3;
+    @include estiloSeccion (80vw,radial-gradient(bisque 50%, rgb(177, 135, 30)));      
     h3 {
         margin: 10px;
         font-size: 20px;
@@ -63,7 +50,7 @@
     ul {
         padding: 0;
         li img {
-            width: 70vw;
+            width: 70vw;          
             margin: 7px;
         }
     }
@@ -71,12 +58,7 @@
 
 .complejo4 {
     grid-area: complejo4;
-    background-image: radial-gradient(bisque 50%, rgb(177, 135, 30));
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10px;
+    @include estiloSeccion (80vw,radial-gradient(bisque 50%, rgb(177, 135, 30)));
     h3 {
         margin: 10px;
         font-size: 20px;
@@ -93,12 +75,7 @@
 
 .complejo5 {
     grid-area: complejo5;
-    background-image: radial-gradient(bisque 50%, rgb(177, 135, 30));
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10px;
+    @include estiloSeccion (80vw,radial-gradient(bisque 50%, rgb(177, 135, 30)));
     h3 {
         margin: 10px;
         font-size: 20px;
@@ -157,37 +134,8 @@
 
 //medias query
 
-@media (min-width: 375px) {
 
-    .main-complejo {
-        height: 3160px;
-    }
-
-}
-
-@media (min-width: 425px) {
-
-    .main-complejo {
-        height: 3430px;
-    }
-
-}
-
-@media (min-width: 450px) {
-
-    .main-complejo {
-        height: 4050px;
-    }
-
-}
-
-
-
-@media (min-width: 768px) {
-
-    .main-complejo {
-        height: 1990px;
-    }
+@media (min-width: 768px) {    
 
     .complejo1 {
         justify-content: center;
@@ -198,7 +146,7 @@
         }
         p {
             font-size: 18px;
-            margin: 15px 25px;
+            margin: 5px 35px 10px 25px;
         }
     }
 
@@ -246,7 +194,7 @@
             align-content: center;
             margin-bottom: 20px;
             li img {
-            width: 30vw;
+            width: 30vw;            
             }
         }
     }
@@ -259,13 +207,7 @@
     }
 }
 
-@media (min-width: 1024px) {
-
-    .main-complejo {
-        position: relative;
-        top: 120px;
-        height: 2420px;
-    }
+@media (min-width: 1024px) {   
 
     .complejo1 {
         h1 {
@@ -273,7 +215,7 @@
         }
         p {
             font-size: 25px;
-            margin: 15px 25px;
+            margin: 15px 45px 25px 25px;
         }
     }
 

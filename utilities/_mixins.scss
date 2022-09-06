@@ -1,0 +1,8 @@
+@mixin estiloSeccion($width,$background-image){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: $width;    
+    background-image: $background-image;
+    margin-bottom: 20px;
+}

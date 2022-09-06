@@ -2,6 +2,10 @@
 
 @import '../base/reset.scss';
 
+@import '../utilities/extend';
+
+@import '../utilities/mixins';
+
 @import '../layout/grid';
 
 @import '../layout/header';
