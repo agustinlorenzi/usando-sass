@@ -1,0 +1,42 @@
+keywords:
+    -index:"cabañas flora autoctona, rincon de los reartes, bajada cerca frente al rio, villa general belgrano, cordoba,
+     previaje"
+    -cabañas:"calamuchita, rio del medio, suites, casas de campo, cerca de la cumbrecita, asador, galeria"
+    -complejo:"complejo cabañas reartes cordoba, santa rosa, calamuchita, pileta, solarium, juegos"
+    -tarifas:"sierras, montañas, ferias, artesanias, comidas tipicas, lago, precios, prestaciones"
+    -contacto:"contacto, reserva, fechas disponibles, alojamiento, alquiler, vista"
+
+description:
+    -index:"Cabañas Flora Autoctona, complejo de descanso y relajación inmerso en la naturaleza. Ubicado en los Reartes, 
+    Provincia de Cordoba, a la cercanias del Rio."
+    -cabañas:"Conectadas con el pueblo de los Reartes, en un equilibrio perfecto entre ciudad y campo, a poca distancia
+     de Villa General Belgrano y Santa Rosa."
+    -complejo:"Cuenta con Pileta o podes disfrutar del Rio de los Reartes. Los paseos por la zona pueden llevarte hacia
+     Villa General Belgrano o a Potrero de Garay."
+    -tarifas:"Te espera el mejor descanso y una variedad muy diversa de actividades a una tarifa accesible,
+     en un hospedaje confortable."
+    -contacto:"Comunicate con nosotros a travez de nuestros medios. Te contamos de nuestra disponibilidad en las
+     distintas cabañas en tus fechas posibles de viaje."
+
+textos:
+    -index: Dejando una buena redaccion, en el texto principal inclui algunas palabras claves.
+    -cabañas: Agregue en el escrito informacion que crei relevante, sin hacerlo demasiado extenso para que atrape sin 
+    cansar.
+    -complejo: Al escrito del principio le agregue algunas palabras clave.
+
+disposicion:
+    -contacto: Centre el formulario en la versión descktop para que fuera mas adecuada la navegacion.
+
+imagenes:
+Desde el principio del proyecto tuve la gran mayoria de las imagenes, hace poco conforme el carrusel, ahi agregue dos 
+imagenes mas y mejore la que habia.
+Controle que no pesaran mucho en general entoda la web y que estuvieran en el formato adecuado.
+Las imagenes de fondo en el footer y en contacto, en donde se intensifica mas su presencia, se ven muy adecuadamente en 
+todos
+los dispositivos.
+    -index: retoque imagen de cabaña las acacias para que quedara pareja con las demas.
+    -complejo: deje todas las imagenes que visualmente quedaran a la misma altura.
+
+video:
+Puse uno que crei muy relevante para mostrar la impresionante belleza del rio de los reartes, con informacion relevante 
+brindada por la comuna del pueblo.

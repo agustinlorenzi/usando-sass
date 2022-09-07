@@ -78,9 +78,9 @@
   background-color: bisque;
   margin: 10px; }
   .navbar-toggler:focus {
-    transform: rotatez(90deg); }
+    transform: rotatez(90deg);
+    background-color: burlywood; }
 
-/* Header universal para todas las paginas */
 .header-home {
   grid-area: header;
   width: 100vw; }
