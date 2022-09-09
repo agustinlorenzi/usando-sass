@@ -147,8 +147,8 @@
   .seccion3 h1 {
     color: chocolate;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 35px;
-    margin: 5px; }
+    font-size: 20px;
+    margin: 10px 5px 0px 5px; }
   .seccion3 ul {
     list-style: none;
     margin: 10px;
@@ -192,20 +192,17 @@
   .seccion3 ul {
     justify-content: space-around; }
     .seccion3 ul li img {
-      width: 65vw;
-      margin: 5px; } }
+      width: 65vw; } }
 
 @media (min-width: 768px) {
   .seccion2 p {
-    text-align: justify;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 20px;
     margin-bottom: 7px;
-    color: brown;
-    font-size: 18px;
-    background-color: rgba(255, 228, 196, 0.473);
-    padding: 10px; }
+    font-size: 18px; }
+  .seccion3 h1 {
+    font-size: 35px; }
   .seccion3 ul {
     display: flex;
     flex-wrap: wrap;
@@ -215,9 +212,7 @@
       width: 40vw;
       margin: 10px; }
   .seccion4 ul {
-    display: flex;
     flex-direction: row;
-    list-style-type: none;
     width: 95vw; }
     .seccion4 ul li {
       font-size: 18px;
@@ -286,8 +281,8 @@
   width: 100vw;
   background-image: linear-gradient(to right, bisque, rgba(233, 211, 114, 0.185));
   margin-bottom: 20px; }
-  .seccion3-ca h2 {
-    font-size: 17px;
+  .seccion3-ca h3 {
+    font-size: 22px;
     margin: 15px 0px; }
   .seccion3-ca ul {
     margin-bottom: 10px;
@@ -304,8 +299,8 @@
   width: 100vw;
   background-image: linear-gradient(to left, bisque, rgba(233, 211, 114, 0.185));
   margin-bottom: 20px; }
-  .seccion4-ca h2 {
-    font-size: 17px;
+  .seccion4-ca h3 {
+    font-size: 22px;
     margin: 15px 0px; }
   .seccion4-ca ul {
     margin-bottom: 10px;
@@ -636,6 +631,8 @@
       .formulario form input:focus {
         padding: 5px 30px;
         scale: 1.1; }
+    .formulario form select {
+      margin-top: 15px; }
 
 .boton-desayuno {
   display: flex;
@@ -658,7 +655,9 @@
     font-size: 25px; }
   .formulario form {
     width: 60vw;
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+    .formulario form select {
+      margin-top: 20px; } }
 
 @media (min-width: 1024px) {
   .formulario form {

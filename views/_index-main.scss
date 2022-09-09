@@ -7,12 +7,12 @@
 
 .seccion2 {
     grid-area: seccion2;
-    background-color: rgba(255, 228, 196, 0.473);
+    background-color: $color-secciones-principales;
     width: 100vw;
 
     p {
         @extend.parrafo;
-        background-color: rgba(255, 228, 196, 0.473);
+        background-color: $color-secciones-principales;
         padding: 10px 15px 10px 15px;
     }
 }
@@ -28,10 +28,10 @@
     align-items: center;
     flex-wrap: wrap;
     h1 {        
-        color: chocolate;
+        color: $color-titulos;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 35px;        
-        margin: 5px;
+        font-size: 20px;        
+        margin: 10px 5px 0px 5px;
     }
     ul {         
         list-style: none;
@@ -86,8 +86,7 @@
             justify-content: space-around;
 
             li img {
-                width: 65vw;
-                margin: 5px;
+                width: 65vw;                
             }
         }
     }
@@ -96,21 +95,20 @@
 @media (min-width: 768px) {
 
     .seccion2 {
-        p {
-            text-align: justify;
+        p {            
             margin-left: 50px;
             margin-right: 50px;
             margin-top: 20px;
-            margin-bottom: 7px;
-            color: rgb(165, 42, 42);
-            font-size: 18px;
-            background-color: rgba(255, 228, 196, 0.473);
-            padding: 10px;
+            margin-bottom: 7px;            
+            font-size: 18px;            
         }
     }
 
-    .seccion3 {        
-        ul {
+    .seccion3 {  
+        h1{
+            font-size: 35px;
+        }      
+        ul {            
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
@@ -123,10 +121,8 @@
     }
 
     .seccion4 {
-        ul {
-            display: flex;
-            flex-direction: row;
-            list-style-type: none;
+        ul {            
+            flex-direction: row;            
             width: 95vw;
             li {
                 font-size: 18px;

@@ -7,10 +7,10 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 228, 196, 0.473);
+    background-color: $color-secciones-principales;
     h1 {
         display: flex;
-        color: chocolate;
+        color: $color-titulos;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         text-align: center;
         font-size: 20px;
@@ -33,7 +33,7 @@
     h2 {
         text-align: center;
         margin: 10px;
-        color: chocolate;
+        color: $color-titulos;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 20px;
     }

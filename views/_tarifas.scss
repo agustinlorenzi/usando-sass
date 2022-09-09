@@ -7,7 +7,7 @@
     align-items: center;
     h1 {
         margin: 10px;
-        color: chocolate;
+        color: $color-titulos;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 22px;
     }
@@ -16,7 +16,7 @@
         margin-bottom: 7px;
     }
     table {
-        background-color: rgba(255, 228, 196, 0.473);
+        background-color: $color-secciones-principales;
         width: 80vw;
         margin-bottom: 15px;
         tr {

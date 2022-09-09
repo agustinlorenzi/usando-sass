@@ -2,13 +2,13 @@
 
 .seccion1-ca {
     grid-area: seccion1-ca;
-    background-color: rgba(255, 228, 196, 0.473);
+    background-color: $color-secciones-principales;    
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     h1 {
-        color: chocolate;
+        color: $color-titulos;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 25px;
         margin: 10px 0px 0px 0px;
@@ -30,7 +30,7 @@
     h2 {
         font-size: 20px;
         margin: 10px;
-        color: chocolate;
+        color: $color-titulos;
         text-align: center;
     }
     ul {
@@ -50,8 +50,8 @@
 .seccion3-ca {
     grid-area: seccion3-ca;
     @include estiloSeccion(100vw,linear-gradient(to right, bisque, rgba(233, 211, 114, 0.185)));         
-    h2 {
-        font-size: 17px;
+    h3 {
+        font-size: 22px;
         margin: 15px 0px;
     }
     ul {
@@ -67,8 +67,8 @@
 .seccion4-ca {
     grid-area: seccion4-ca;
     @include estiloSeccion(100vw,linear-gradient(to left, bisque, rgba(233, 211, 114, 0.185)));    
-    h2 {
-        font-size: 17px;
+    h3 {
+        font-size: 22px;
         margin: 15px 0px;
     }    
     ul {
