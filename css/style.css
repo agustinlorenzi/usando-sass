@@ -109,6 +109,12 @@
   .margen-laptop {
     margin-left: 350px; } }
 
+@media (min-width: 1920px) {
+  .navbar ul {
+    font-size: 25px; }
+  .navbar-brand img {
+    width: 300px; } }
+
 /*desarrollo de caracteristicas globales de main y footer.*/
 .main {
   position: relative;
@@ -121,6 +127,10 @@
 .main-footer {
   width: 100vw; }
 
+@media (min-width: 1920px) {
+  .main {
+    top: 138.156px; } }
+
 /* Desarrollo de las secciones de la home */
 .seccion1 {
   grid-area: seccion1;
@@ -129,10 +139,16 @@
 .seccion2 {
   grid-area: seccion2;
   background-color: rgba(255, 228, 196, 0.473);
-  width: 100vw; }
+  width: 100vw;
+  display: flex;
+  justify-content: center; }
   .seccion2 p {
-    background-color: rgba(255, 228, 196, 0.473);
-    padding: 10px 15px 10px 15px; }
+    background-color: rgba(255, 228, 196, 0.589);
+    padding: 15px;
+    width: 90vw;
+    margin: 15px;
+    text-align: center;
+    overflow-y: hidden; }
 
 .seccion3 {
   grid-area: seccion3;
@@ -201,8 +217,6 @@
   .seccion2 p {
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 20px;
-    margin-bottom: 7px;
     font-size: 18px; }
   .seccion3 h1 {
     font-size: 35px; }
@@ -225,8 +239,6 @@
       align-items: center; } }
 
 @media (min-width: 1024px) {
-  .seccion2 {
-    height: 130px; }
   .seccion3 ul {
     display: flex;
     flex-direction: row;
@@ -235,8 +247,38 @@
     width: 100vw;
     justify-content: space-evenly; }
     .seccion3 ul li img {
-      width: 275px;
+      width: 20vw;
       margin: 5px; } }
+
+@media (min-width: 1920px) {
+  .seccion2 p {
+    font-size: 25px; }
+  .seccion3 h1 {
+    font-size: 50px; }
+  .seccion4 h2 {
+    font-size: 35px; }
+  .seccion4 ul li {
+    font-size: 25px; } }
+
+@media (min-width: 2560px) {
+  .seccion2 p {
+    font-size: 35px; }
+  .seccion3 h1 {
+    font-size: 55px; }
+  .seccion4 h2 {
+    font-size: 45px; }
+  .seccion4 ul li {
+    font-size: 35px; } }
+
+@media (min-width: 3840px) {
+  .seccion2 p {
+    font-size: 55px; }
+  .seccion3 h1 {
+    font-size: 75px; }
+  .seccion4 h2 {
+    font-size: 60px; }
+  .seccion4 ul li {
+    font-size: 47px; } }
 
 /* Desarrollo de las secciones de cabañas */
 .seccion1-ca {
@@ -796,3 +838,10 @@
   .ubicacion iframe {
     width: 40vw;
     margin-bottom: 10px; } }
+
+@media (min-width: 1920px) {
+  .footer {
+    position: relative;
+    bottom: -138.156px;
+    left: 0;
+    right: 0; } }

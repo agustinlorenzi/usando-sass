@@ -24,12 +24,13 @@
 }
 
 .navbar-brand img {
-    width: 200px;       
+    width: 200px;
 }
 
 .navbar-toggler {
     background-color: bisque;
     margin: 10px;
+
     &:focus {
         transform: rotatez(90deg);
         background-color: burlywood;
@@ -65,18 +66,31 @@
 
 /*arrancan las medias querys*/
 
-@media (min-width: 1024px) {   
+@media (min-width: 1024px) {
 
     .margen-laptop {
         margin-left: 200px;
     }
 }
 
-@media (min-width: 1366px) { 
-    
-    
+@media (min-width: 1366px) {
 
     .margen-laptop {
         margin-left: 350px;
     }
 }
+
+@media (min-width: 1920px) {
+
+    .navbar {
+        ul {
+            font-size: 25px;
+        }
+    }
+
+    .navbar-brand img {
+        width: 300px;
+    }
+}
+
+
