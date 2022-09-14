@@ -75,7 +75,7 @@
   background-color: burlywood; }
 
 .navbar-brand img {
-  width: 150px; }
+  width: 200px; }
 
 .navbar-toggler {
   background-color: bisque;
@@ -90,7 +90,7 @@
 
 .animacion-logo {
   animation-name: opacidad;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   animation-duration: 3s; }
 
 /* Keyframes = Animaciones = Linea del tiempo */
@@ -112,7 +112,7 @@
 /*desarrollo de caracteristicas globales de main y footer.*/
 .main {
   position: relative;
-  top: 119px;
+  top: 100.77px;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -689,7 +689,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  bottom: -119px;
+  bottom: -100.77px;
   left: 0;
   right: 0; }
 

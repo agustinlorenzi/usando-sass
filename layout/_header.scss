@@ -24,7 +24,7 @@
 }
 
 .navbar-brand img {
-    width: 150px;       
+    width: 200px;       
 }
 
 .navbar-toggler {
@@ -45,7 +45,7 @@
 
 .animacion-logo {
     animation-name: opacidad;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-duration: 3s;
 }
 
@@ -72,7 +72,9 @@
     }
 }
 
-@media (min-width: 1366px) {  
+@media (min-width: 1366px) { 
+    
+    
 
     .margen-laptop {
         margin-left: 350px;
