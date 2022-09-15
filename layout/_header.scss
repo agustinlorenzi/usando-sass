@@ -93,4 +93,23 @@
     }
 }
 
+@media (min-width: 3840px) {
+    .navbar-brand img {
+        width: 400px;        
+    }
+
+    .margen-laptop {
+        margin-left: 150px;
+        
+    }
+
+    .navbar {
+        ul {
+            font-size: 27px;
+            justify-content: flex-end;
+            
+        }
+    }
+}
+
 

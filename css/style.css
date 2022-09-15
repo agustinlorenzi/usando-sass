@@ -115,6 +115,15 @@
   .navbar-brand img {
     width: 300px; } }
 
+@media (min-width: 3840px) {
+  .navbar-brand img {
+    width: 400px; }
+  .margen-laptop {
+    margin-left: 150px; }
+  .navbar ul {
+    font-size: 27px;
+    justify-content: flex-end; } }
+
 /*desarrollo de caracteristicas globales de main y footer.*/
 .main {
   position: relative;
@@ -130,6 +139,10 @@
 @media (min-width: 1920px) {
   .main {
     top: 138.156px; } }
+
+@media (min-width: 3840px) {
+  .main {
+    top: 175.531px; } }
 
 /* Desarrollo de las secciones de la home */
 .seccion1 {
@@ -752,9 +765,9 @@
     flex-direction: column;
     align-items: center;
     padding-left: 0; }
-  .contacto li {
-    margin: 8px;
-    color: rgba(255, 238, 0, 0.966); }
+    .contacto ul li {
+      margin: 8px;
+      color: rgba(255, 238, 0, 0.966); }
 
 .redes {
   display: flex;
@@ -776,10 +789,10 @@
     align-items: center;
     margin: 15px;
     padding-left: 0;
-    width: 320px;
+    width: 100vw;
     justify-content: space-evenly; }
-  .redes li {
-    margin: 10px; }
+    .redes ul li {
+      margin: 10px; }
 
 .ubicacion {
   width: 100vw;
@@ -826,6 +839,8 @@
   .redes {
     width: 50vw;
     padding-left: 20px; }
+    .redes ul {
+      width: 40vw; }
   .contacto {
     flex-direction: column;
     width: 30vw; }
@@ -844,4 +859,43 @@
     position: relative;
     bottom: -138.156px;
     left: 0;
-    right: 0; } }
+    right: 0; }
+  .contacto h2 {
+    font-size: 35px; }
+  .contacto ul {
+    font-size: 25px; }
+  .creador {
+    font-size: 20px;
+    height: 55px; }
+  .ubicacion h3 {
+    font-size: 25px; } }
+
+@media (min-width: 2560px) {
+  .contacto h2 {
+    font-size: 45px; }
+  .contacto ul {
+    font-size: 35px; }
+  .redes h3 {
+    font-size: 35px; }
+  .ubicacion h3 {
+    font-size: 35px; }
+  .creador {
+    font-size: 30px;
+    height: 70px; } }
+
+@media (min-width: 3840px) {
+  .footer {
+    position: relative;
+    bottom: -175.531px;
+    left: 0;
+    right: 0; }
+  .contacto h2 {
+    font-size: 60px; }
+  .contacto ul {
+    font-size: 47px; }
+  .redes h3 {
+    font-size: 55px; }
+  .ubicacion h3 {
+    font-size: 55px; }
+  .creador {
+    font-size: 45px; } }
