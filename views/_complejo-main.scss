@@ -21,6 +21,7 @@
         display: flex;
         margin: 5px 15px 10px 15px;
         @extend.parrafo;
+        width: 80vw;
     }
 }
 
@@ -227,7 +228,8 @@
         }
         p {
             font-size: 25px;
-            margin: 15px 45px 25px 25px;
+            margin: 15px 0px;
+            width: 70vw;
         }
     }
 
@@ -262,3 +264,135 @@
     }
 }
 
+@media (min-width: 1920px){
+
+    .complejo1 {
+        h1 {
+            font-size: 45px;
+        }
+        p {
+            font-size: 35px;
+        }
+    }
+
+    .complejo2 {
+        h2 {
+            font-size: 40px;
+        }
+    }
+
+    .complejo3 {
+        h3 {
+            font-size: 35px;
+        }
+    }
+
+    .complejo4 {
+        h3 {
+            font-size: 35px;
+        }
+    }
+
+    .complejo5 {
+        h3 {
+            font-size: 35px;
+        }
+    }
+
+    .complejo6 {
+        h3 {
+            font-size: 35px;
+        }
+        iframe{
+            width: 40vw;
+            
+        }
+    }    
+
+}
+
+@media (min-width: 2560px){
+
+    .complejo1 {
+        h1 {
+            font-size: 55px;
+        }
+        p {
+            font-size: 45px;
+        }
+    }
+
+    .complejo2 {
+        h2 {
+            font-size: 50px;
+        }
+    }
+
+    .complejo3 {
+        h3 {
+            font-size: 45px;
+        }
+    }
+
+    .complejo4 {
+        h3 {
+            font-size: 45px;
+        }
+    }
+
+    .complejo5 {
+        h3 {
+            font-size: 45px;
+        }
+    }
+
+    .complejo6 {
+        h3 {
+            font-size: 45px;
+        }
+    }
+
+}
+
+@media (min-width: 3840px){
+
+    .complejo1 {
+        h1 {
+            font-size: 75px;
+        }
+        p {
+            font-size: 65px;
+        }
+    }
+
+    .complejo2 {
+        h2 {
+            font-size: 70px;
+        }
+    }
+
+    .complejo3 {
+        h3 {
+            font-size: 65px;
+        }
+    }
+
+    .complejo4 {
+        h3 {
+            font-size: 65px;
+        }
+    }
+
+    .complejo5 {
+        h3 {
+            font-size: 65px;
+        }
+    }
+
+    .complejo6 {
+        h3 {
+            font-size: 65px;
+        }
+    }
+
+}

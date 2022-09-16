@@ -47,7 +47,7 @@
     }
     ul {
         list-style-type: disc;
-        width: 86vw;
+        width: 80vw;
         margin: 0px 10px 10px 15px;
         padding: 0;
         li {
@@ -85,4 +85,86 @@
             }
         }
     }
+}
+
+@media (min-width: 1920px){
+
+    .tarifas1 {
+        h1 {
+            font-size: 45px;
+        }
+        h2 {
+            font-size: 35px;
+        }
+        table {
+            font-size: 25px;
+        }
+    }  
+    
+    .tarifas2 {        
+        h2 {
+            font-size: 32px;
+        }
+        ul {
+            li {
+                font-size: 25px;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 2560px){
+
+    .tarifas1 {
+        h1 {
+            font-size: 55px;
+        }
+        h2 {
+            font-size: 45px;
+        }
+        table {
+            font-size: 35px;
+        }
+    }  
+    
+    .tarifas2 {        
+        h2 {
+            font-size: 42px;
+        }
+        ul {
+            li {
+                font-size: 35px;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 3840px){
+
+    .tarifas1 {
+        h1 {
+            font-size: 75px;
+        }
+        h2 {
+            font-size: 60px;
+        }
+        table {
+            font-size: 45px;
+        }
+    }  
+    
+    .tarifas2 {        
+        h2 {
+            font-size: 58px;
+        }
+        ul {
+            li {
+                font-size: 45px;
+            }
+        }
+    }
+    
+
 }

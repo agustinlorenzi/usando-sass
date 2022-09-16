@@ -20,7 +20,7 @@
     }
     form {
         display: flex;
-        flex-direction: column;
+        flex-direction: column;        
         width: 90vw;             
         label {
             color: white;
@@ -32,12 +32,23 @@
                 padding: 5px 30px;
                 scale: 1.1;                
             }
-        }
+        }        
+
         select{
             margin-top: 15px;
         }
     }
 }
+
+
+    /*input[type=submit]{
+        width: 50vw;
+        align-items: center;
+    }
+    input[type=reset]{
+        width: 50vw;
+    }*/
+
 
 .boton-desayuno {
     display: flex;
@@ -86,5 +97,107 @@
             margin-bottom: 40px;            
         }
     }  
+
+}
+
+@media (min-width: 1920px){
+    .formulario {          
+        h1 {
+            font-size: 45px;
+        }
+        p {
+            font-size: 35px;
+        }
+        form {                         
+            label {
+                font-size: 25px;                
+            }  
+            textarea{                
+                    font-size: 25px;               
+                
+            }
+            input{
+                font-size: 20px;
+            }
+            input[type=radio] {                
+                width: 5%;
+                height: 1em;
+            }
+            input[type=checkbox] {                
+                width: 5%;
+                height: 1em;
+            }
+            select{
+                font-size: 25px;
+                option{
+                    font-size: 15px;
+                }
+            }  
+            
+        }
+    }
+}
+
+   
+
+@media (min-width: 2560px){
+
+    .formulario {          
+        h1 {
+            font-size: 55px;
+        }
+        p {
+            font-size: 45px;
+        }
+        form {                         
+            label {
+                font-size: 35px;
+            }  
+            textarea{                
+                font-size: 35px;               
+            
+            }
+            input{
+                font-size: 30px;
+            }
+            select{
+                font-size: 35px;
+                option{
+                    font-size: 20px;
+                }
+            }       
+        }
+    }
+
+    
+}
+
+@media (min-width: 3840px){
+
+    .formulario {          
+        h1 {
+            font-size: 75px;
+        }
+        p {
+            font-size: 65px;
+        }
+        form {                         
+            label {
+                font-size: 55px;
+            }  
+            textarea{                
+                font-size: 45px;               
+            
+            }
+            input{
+                font-size: 50px;
+            }
+            select{
+                font-size: 55px;
+            }       
+        }
+    }
+
+    
 
 }

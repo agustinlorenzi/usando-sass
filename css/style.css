@@ -307,7 +307,8 @@
     font-size: 25px;
     margin: 10px 0px 0px 0px; }
   .seccion1-ca p {
-    margin: 15px 25px 15px 20px; }
+    margin: 15px 25px 15px 20px;
+    width: 80vw; }
 
 .seccion2-ca {
   grid-area: seccion2-ca;
@@ -383,7 +384,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 90vw;
     justify-content: center; }
   .seccion3-ca h3 {
     font-size: 25px; }
@@ -406,8 +407,7 @@
 
 @media (min-width: 1024px) {
   .seccion1-ca p {
-    margin-left: 30px;
-    margin-right: 50px; }
+    width: 70vw; }
   .seccion2-ca h2 {
     font-size: 30px; }
   .seccion2-ca ul li {
@@ -418,6 +418,34 @@
   .seccion4-ca ul li img {
     width: 30vw;
     margin: 20px; } }
+
+@media (min-width: 2560px) {
+  .seccion1-ca h1 {
+    font-size: 45px; }
+  .seccion1-ca p {
+    font-size: 32px; }
+  .seccion2-ca h2 {
+    font-size: 35px; }
+  .seccion2-ca ul li {
+    font-size: 26px; }
+  .seccion3-ca h3 {
+    font-size: 30px; }
+  .seccion4-ca h3 {
+    font-size: 30px; } }
+
+@media (min-width: 3840px) {
+  .seccion1-ca h1 {
+    font-size: 75px; }
+  .seccion1-ca p {
+    font-size: 52px; }
+  .seccion2-ca h2 {
+    font-size: 60px; }
+  .seccion2-ca ul li {
+    font-size: 50px; }
+  .seccion3-ca h3 {
+    font-size: 48px; }
+  .seccion4-ca h3 {
+    font-size: 48px; } }
 
 /* desarrollo de las secciones del complejo */
 .complejo1 {
@@ -438,7 +466,8 @@
     margin: 8px 8px 5px 8px; }
   .complejo1 p {
     display: flex;
-    margin: 5px 15px 10px 15px; }
+    margin: 5px 15px 10px 15px;
+    width: 80vw; }
 
 .complejo2 {
   grid-area: complejo2;
@@ -598,7 +627,8 @@
     font-size: 35px; }
   .complejo1 p {
     font-size: 25px;
-    margin: 15px 45px 25px 25px; }
+    margin: 15px 0px;
+    width: 70vw; }
   .complejo2 h2 {
     font-size: 30px; }
   .complejo3 h3 {
@@ -609,6 +639,56 @@
     font-size: 25px; }
   .complejo6 h3 {
     font-size: 25px; } }
+
+@media (min-width: 1920px) {
+  .complejo1 h1 {
+    font-size: 45px; }
+  .complejo1 p {
+    font-size: 35px; }
+  .complejo2 h2 {
+    font-size: 40px; }
+  .complejo3 h3 {
+    font-size: 35px; }
+  .complejo4 h3 {
+    font-size: 35px; }
+  .complejo5 h3 {
+    font-size: 35px; }
+  .complejo6 h3 {
+    font-size: 35px; }
+  .complejo6 iframe {
+    width: 40vw; } }
+
+@media (min-width: 2560px) {
+  .complejo1 h1 {
+    font-size: 55px; }
+  .complejo1 p {
+    font-size: 45px; }
+  .complejo2 h2 {
+    font-size: 50px; }
+  .complejo3 h3 {
+    font-size: 45px; }
+  .complejo4 h3 {
+    font-size: 45px; }
+  .complejo5 h3 {
+    font-size: 45px; }
+  .complejo6 h3 {
+    font-size: 45px; } }
+
+@media (min-width: 3840px) {
+  .complejo1 h1 {
+    font-size: 75px; }
+  .complejo1 p {
+    font-size: 65px; }
+  .complejo2 h2 {
+    font-size: 70px; }
+  .complejo3 h3 {
+    font-size: 65px; }
+  .complejo4 h3 {
+    font-size: 65px; }
+  .complejo5 h3 {
+    font-size: 65px; }
+  .complejo6 h3 {
+    font-size: 65px; } }
 
 /* desarrollo de secciones de tarifas y reserva */
 .tarifas1 {
@@ -647,7 +727,7 @@
     margin: 14px 10px 6px 10px; }
   .tarifas2 ul {
     list-style-type: disc;
-    width: 86vw;
+    width: 80vw;
     margin: 0px 10px 10px 15px;
     padding: 0; }
     .tarifas2 ul li {
@@ -669,6 +749,42 @@
       font-size: 22px; }
     .tarifas2 ul li {
       font-size: 18px; } }
+
+@media (min-width: 1920px) {
+  .tarifas1 h1 {
+    font-size: 45px; }
+  .tarifas1 h2 {
+    font-size: 35px; }
+  .tarifas1 table {
+    font-size: 25px; }
+  .tarifas2 h2 {
+    font-size: 32px; }
+  .tarifas2 ul li {
+    font-size: 25px; } }
+
+@media (min-width: 2560px) {
+  .tarifas1 h1 {
+    font-size: 55px; }
+  .tarifas1 h2 {
+    font-size: 45px; }
+  .tarifas1 table {
+    font-size: 35px; }
+  .tarifas2 h2 {
+    font-size: 42px; }
+  .tarifas2 ul li {
+    font-size: 35px; } }
+
+@media (min-width: 3840px) {
+  .tarifas1 h1 {
+    font-size: 75px; }
+  .tarifas1 h2 {
+    font-size: 60px; }
+  .tarifas1 table {
+    font-size: 45px; }
+  .tarifas2 h2 {
+    font-size: 58px; }
+  .tarifas2 ul li {
+    font-size: 45px; } }
 
 /* desarrollo de secciones de formulario de contacto */
 .formulario {
@@ -702,6 +818,13 @@
     .formulario form select {
       margin-top: 15px; }
 
+/*input[type=submit]{
+        width: 50vw;
+        align-items: center;
+    }
+    input[type=reset]{
+        width: 50vw;
+    }*/
 .boton-desayuno {
   display: flex;
   justify-content: flex-start;
@@ -731,6 +854,58 @@
   .formulario form {
     width: 40vw;
     margin-bottom: 40px; } }
+
+@media (min-width: 1920px) {
+  .formulario h1 {
+    font-size: 45px; }
+  .formulario p {
+    font-size: 35px; }
+  .formulario form label {
+    font-size: 25px; }
+  .formulario form textarea {
+    font-size: 25px; }
+  .formulario form input {
+    font-size: 20px; }
+  .formulario form input[type=radio] {
+    width: 5%;
+    height: 1em; }
+  .formulario form input[type=checkbox] {
+    width: 5%;
+    height: 1em; }
+  .formulario form select {
+    font-size: 25px; }
+    .formulario form select option {
+      font-size: 15px; } }
+
+@media (min-width: 2560px) {
+  .formulario h1 {
+    font-size: 55px; }
+  .formulario p {
+    font-size: 45px; }
+  .formulario form label {
+    font-size: 35px; }
+  .formulario form textarea {
+    font-size: 35px; }
+  .formulario form input {
+    font-size: 30px; }
+  .formulario form select {
+    font-size: 35px; }
+    .formulario form select option {
+      font-size: 20px; } }
+
+@media (min-width: 3840px) {
+  .formulario h1 {
+    font-size: 75px; }
+  .formulario p {
+    font-size: 65px; }
+  .formulario form label {
+    font-size: 55px; }
+  .formulario form textarea {
+    font-size: 45px; }
+  .formulario form input {
+    font-size: 50px; }
+  .formulario form select {
+    font-size: 55px; } }
 
 /* Footer universal para todas las paginas */
 .footer {
