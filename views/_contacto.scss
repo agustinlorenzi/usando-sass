@@ -27,27 +27,28 @@
             margin: 10px 0px 2px;
         }
         input {
-            margin: 0px 0px 10px;
+            margin: 0px 0px 15px;
             &:focus {
                 padding: 5px 30px;
                 scale: 1.1;                
             }
-        }        
+        } 
+        input[type=radio] {                
+            width: 5%;
+            height: 1em;
+            margin: 7px 0px;
+        }
 
+        input[type=checkbox] {                
+            width: 5%;
+            height: 1em;
+            margin: 7px 0px;
+        }
         select{
             margin-top: 15px;
         }
     }
 }
-
-
-    /*input[type=submit]{
-        width: 50vw;
-        align-items: center;
-    }
-    input[type=reset]{
-        width: 50vw;
-    }*/
 
 
 .boton-desayuno {
@@ -118,11 +119,9 @@
             }
             input{
                 font-size: 20px;
+                margin: 25px 0px;
             }
-            input[type=radio] {                
-                width: 5%;
-                height: 1em;
-            }
+            
             input[type=checkbox] {                
                 width: 5%;
                 height: 1em;

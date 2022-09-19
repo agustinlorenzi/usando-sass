@@ -31,6 +31,10 @@
         color: rgba(255, 238, 0, 0.966);
     }
 
+    p{
+        color: rgba(255, 238, 0, 0.966);
+    }
+
     ul {
         display: flex;
         flex-direction: column;
@@ -39,6 +43,12 @@
         li {
             margin: 8px;
             color: rgba(255, 238, 0, 0.966);
+            a{
+                color: rgba(145, 255, 0, 0.959);
+                img{
+                    margin: 5px 10px;
+                }
+            }
         }
     }
 
@@ -59,7 +69,7 @@
         align-items: center;
         width: 100vw;
         margin: 10px 0px 20px 0px;
-        color: brown
+        color:  brown
     }
 
     ul {
