@@ -726,10 +726,10 @@
     font-size: 18px;
     margin: 14px 10px 6px 10px; }
   .tarifas2 ul {
-    list-style-type: disc;
+    list-style: none;
     width: 80vw;
     margin: 0px 10px 10px 15px;
-    padding: 0; }
+    padding: 0px; }
     .tarifas2 ul li {
       margin: 5px 5px 9px 15px;
       font-size: 17px; }
@@ -816,12 +816,10 @@
         padding: 5px 30px;
         scale: 1.1; }
     .formulario form input[type=radio] {
-      width: 5%;
-      height: 1em;
+      width: 6%;
       margin: 7px 0px; }
     .formulario form input[type=checkbox] {
-      width: 5%;
-      height: 1em;
+      width: 8%;
       margin: 7px 0px; }
     .formulario form select {
       margin-top: 15px; }
@@ -868,9 +866,6 @@
   .formulario form input {
     font-size: 20px;
     margin: 25px 0px; }
-  .formulario form input[type=checkbox] {
-    width: 5%;
-    height: 1em; }
   .formulario form select {
     font-size: 25px; }
     .formulario form select option {
@@ -903,6 +898,12 @@
     font-size: 45px; }
   .formulario form input {
     font-size: 50px; }
+  .formulario form input[type=radio] {
+    width: 5%;
+    margin: 0px 0px 30px 30px; }
+  .formulario form input[type=checkbox] {
+    width: 5%;
+    margin: 0px 0px 30px 30px; }
   .formulario form select {
     font-size: 55px; } }
 
