@@ -5,7 +5,7 @@ Los mismos son los siguientes:
             * Uso de clases y pseudoclases.
             * Animaciones, transformaciones y transiciones.
             * Se hizo el proyecto totalmente responsive y adaptable a todos los dispositivos donde puede llegar a ser visualizado.
-            Para ello se uso convenientemente las medias querys necesarias aplicando Mobile First.
+            Para ello se aplico Mobile First y utilizaron medias querys.            
             * En partes como el menu o el carrucel se aplico Bootstrap.
             * Utilización de el preprocesador SASS.
             * Aplicación de SEO para optimización en buscadores.
