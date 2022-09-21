@@ -721,16 +721,21 @@
   flex-direction: column;
   align-items: center;
   background-color: rgba(177, 135, 30, 0.562);
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  /*aplicando BEM*/ }
   .tarifas2 h2 {
     font-size: 18px;
     margin: 14px 10px 6px 10px; }
-  .tarifas2 ul {
+  .tarifas2__link {
     list-style: none;
     width: 80vw;
     margin: 0px 10px 10px 15px;
     padding: 0px; }
-    .tarifas2 ul li {
+    .tarifas2__link--letra {
+      background-color: #b1871e;
+      padding-left: 15px;
+      font-weight: bold; }
+    .tarifas2__link li {
       margin: 5px 5px 9px 15px;
       font-size: 17px; }
 
@@ -747,7 +752,7 @@
     margin-bottom: 22px; }
     .tarifas2 h2 {
       font-size: 22px; }
-    .tarifas2 ul li {
+    .tarifas2__link li {
       font-size: 18px; } }
 
 @media (min-width: 1920px) {
@@ -759,7 +764,7 @@
     font-size: 25px; }
   .tarifas2 h2 {
     font-size: 32px; }
-  .tarifas2 ul li {
+  .tarifas2__link li {
     font-size: 25px; } }
 
 @media (min-width: 2560px) {
@@ -771,7 +776,7 @@
     font-size: 35px; }
   .tarifas2 h2 {
     font-size: 42px; }
-  .tarifas2 ul li {
+  .tarifas2__link li {
     font-size: 35px; } }
 
 @media (min-width: 3840px) {
@@ -783,7 +788,7 @@
     font-size: 45px; }
   .tarifas2 h2 {
     font-size: 58px; }
-  .tarifas2 ul li {
+  .tarifas2__link li {
     font-size: 45px; } }
 
 /* desarrollo de secciones de formulario de contacto */

@@ -45,11 +45,17 @@
         font-size: 18px;
         margin: 14px 10px 6px 10px;
     }
-    ul {
+    /*aplicando BEM*/
+    &__link {
         list-style: none;
         width: 80vw;
         margin: 0px 10px 10px 15px;
         padding: 0px;
+        &--letra{
+            background-color:  rgb(177, 135, 30);
+            padding-left: 15px;
+            font-weight: bold;            
+        }
         li {
             margin: 5px 5px 9px 15px;
             font-size: 17px;
@@ -79,7 +85,7 @@
         h2 {
             font-size: 22px;
         }
-        ul {
+        &__link {
             li {
                 font-size: 18px;
             }
@@ -105,7 +111,7 @@
         h2 {
             font-size: 32px;
         }
-        ul {
+        &__link {
             li {
                 font-size: 25px;
             }
@@ -132,7 +138,7 @@
         h2 {
             font-size: 42px;
         }
-        ul {
+        &__link {
             li {
                 font-size: 35px;
             }
@@ -159,7 +165,7 @@
         h2 {
             font-size: 58px;
         }
-        ul {
+        &__link {
             li {
                 font-size: 45px;
             }
